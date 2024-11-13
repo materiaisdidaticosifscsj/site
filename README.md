@@ -1,4 +1,4 @@
-# MATERIAIS DID�TICOS - IFSC/SJ
+# MATERIAIS DIDATICOS - IFSC/SJ
 
 ### Site criado para disponibilizar arquivos de materiais didáticos feitos por pessoas do instituto para pessoas do instituto.
 
