@@ -1,0 +1,29 @@
+main {
+    display: flex; /* Ensure main is a flex container */
+    flex-direction: column; /* Stack child elements */
+    align-items: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section h3 {
+    margin-top: 2rem;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.product-image img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.product-info, .product-links {
+    padding: 0 1rem;
+    text-align: center;
+}

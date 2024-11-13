@@ -1,0 +1,18 @@
+.product-image img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.product-info, .product-links {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+main section {
+    align-items: center;
+    text-align: center;
+}
+
+main section p {
+    margin-bottom: 1rem;
+}
