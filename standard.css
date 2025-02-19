@@ -14,13 +14,13 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    align-items: center; /* Vertically center items */
+    align-items: center; 
 }
 
 .nav-list {
     display: flex;
-    flex: 1; /* Allow the nav-list to take up available space */
-    justify-content: flex-end; /* Align menu items to the right */
+    flex: 1; 
+    justify-content: flex-end; 
 }
 
 .nav-list ul {
@@ -83,23 +83,23 @@ header {
     }
 
     .container {
-        padding: 0 1rem; /* Less padding on small screens */
+        padding: 0 1rem; 
     }
 
     img {
-        width: 90%; /* Make images responsive */
+        width: 90%; 
     }
 
     h1 {
-        font-size: 1.5rem; /* Smaller font size for smaller screens */
+        font-size: 1.5rem;
     }
 
     ul {
-        flex-direction: column; /* Stack items on smaller screens */
+        flex-direction: column;
     }
 
     .logo img {
-        max-width: 150px; /* Reduce the max width for smaller screens */
+        max-width: 150px; 
     }
     
 }
@@ -120,7 +120,7 @@ body {
     color: white;
     background-color: black;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -131,18 +131,18 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 1rem; /* Use rem for responsiveness */
+    padding: 1rem;
 }
 
 a {
     color: white;
-    text-decoration: none; /* Remove underline for links */
-    transition: color 0.3s; /* Smooth color transition */
+    text-decoration: none; 
+    transition: color 0.3s;
 }
 
 h1 {
     color: lightgreen;
-    font-size: 2rem; /* Responsive font size */
+    font-size: 2rem;
 }
 
 nav a {
@@ -170,7 +170,7 @@ nav a:hover {
 }
 
 .container {
-    padding: 0 3rem; /* Use rem for consistency */
+    padding: 0 3rem; 
 }
 
 footer {
@@ -211,7 +211,7 @@ footer p {
 .logo {
     display: flex;
     align-items: center;
-    margin-right: auto; /* Pushes the nav-list to the right */
+    margin-right: auto; 
 }
 
 .logo img {
@@ -242,13 +242,13 @@ img {
 
 .download-btn:hover {
     background-color: #004d00;
-    transform: scale(1.05); /* Adds a slight scale effect */
+    transform: scale(1.05); 
 }
 
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-        margin: 0 auto; /* Center the container */
+        margin: 0 auto; 
     }
 }
 
@@ -257,9 +257,11 @@ html, body {
 }
 
 h2, h3 {
-    margin-bottom: 1rem; /* Adds space below headings */
+    margin-bottom: 1rem; 
 }
 
 main {
     flex-grow: 1;
 }
+
+
